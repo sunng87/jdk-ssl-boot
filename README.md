@@ -21,7 +21,7 @@ mvn install
 Find generated jar package in `target`. To use this patched version, you will need to prepend the package to **bootstrap classpath**:
 
 ```
--Xbootclasspath/p:ssl-boot-jdk7-<version>.jar
+-Xbootclasspath/p:ssl-boot-<jdk-version>-<version>.jar
 ```
 
 Then benefit.
